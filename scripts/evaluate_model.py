@@ -92,6 +92,9 @@ def evaluate(args, loader, generator, num_samples):
 
 
 def main(args):
+    args.model_path = 'models/sgan-models'
+    # args.model_path = 'models/sgan-self-models'           # Not Work Yet
+
     if os.path.isdir(args.model_path):
         filenames = os.listdir(args.model_path)
         filenames.sort()
