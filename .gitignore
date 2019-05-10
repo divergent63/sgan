@@ -108,3 +108,9 @@ modules.xml
 TrafficGYM.xml
 vcs.xml
 /.idea
+/scripts/generate_sim_data/data/type_2/demands
+/scripts/generate_sim_data/data/type_2/conf/fcd.csv
+/scripts/generate_sim_data/data/type_2/conf/fcd.xml
+
+/scripts/generate_sim_data/data/type_2/conf/fcd_ped.csv
+/scripts/generate_sim_data/data/type_2/conf/fcd_ped.xml
